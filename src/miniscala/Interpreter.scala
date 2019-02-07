@@ -7,9 +7,7 @@ import miniscala.Ast._
   */
 object Interpreter {
 
-  def eval(e: Exp) = {
-    e.eval()
-    /**
+  def eval(e: Exp): Int = e match {
     case IntLit(c) => c
     case BinOpExp(leftexp, op, rightexp) =>
       val leftval = eval(leftexp)
@@ -36,7 +34,7 @@ object Interpreter {
       val expval = eval(exp)
       op match {
         case NegUnOp() => -expval
-      } **/
+      }
   }
 
   /**

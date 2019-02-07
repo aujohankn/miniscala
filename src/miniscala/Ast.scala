@@ -15,64 +15,37 @@ object Ast {
   /**
     * Expressions.
     */
-  sealed abstract class Exp extends AstNode {
-    def eval(): Int
-  }
+  sealed abstract class Exp extends AstNode
 
-  case class BinOpExp(leftexp: Exp, op: BinOp, rightexp: Exp) extends Exp {
-    def eval() = op.eval(leftexp.eval(),rightexp.eval())
-  }
+  case class BinOpExp(leftexp: Exp, op: BinOp, rightexp: Exp) extends Exp
 
-  case class UnOpExp(op: UnOp, exp: Exp) extends Exp {
-    def eval() = op.eval(exp.eval())
-  }
+  case class UnOpExp(op: UnOp, exp: Exp) extends Exp
 
-  case class IntLit(c: Int) extends Exp {
-    def eval() = c
-  }
+  case class IntLit(c: Int) extends Exp
 
   /**
     * Binary operators.
     */
-  sealed abstract class BinOp extends AstNode {
-    def eval(v1: Int, v2: Int): Int
-  }
+  sealed abstract class BinOp extends AstNode
 
-  case class PlusBinOp() extends BinOp {
-    def eval(v1: Int, v2: Int) = v1 + v2
-  }
+  case class PlusBinOp() extends BinOp
 
-  case class MinusBinOp() extends BinOp {
-    def eval(v1: Int, v2: Int) = v1 - v2
-  }
+  case class MinusBinOp() extends BinOp
 
-  case class MultBinOp() extends BinOp {
-    def eval(v1: Int, v2: Int) = v1 * v2
-  }
+  case class MultBinOp() extends BinOp
 
-  case class DivBinOp() extends BinOp {
-    def eval(v1: Int, v2: Int) = v1/v2
-  }
+  case class DivBinOp() extends BinOp
 
-  case class ModuloBinOp() extends BinOp {
-    def eval(v1: Int, v2: Int) = v1 % v2
-  }
+  case class ModuloBinOp() extends BinOp
 
-  case class MaxBinOp() extends BinOp {
-    def eval(v1: Int, v2: Int) =
-      if (v1>v2) v1 else v2
-  }
+  case class MaxBinOp() extends BinOp
 
   /**
     * Unary operators.
     */
-  sealed abstract class UnOp extends AstNode {
-    def eval(v: Int): Int
-  }
+  sealed abstract class UnOp extends AstNode
 
-  case class NegUnOp() extends UnOp {
-    def eval(v: Int) = -v
-  }
+  case class NegUnOp() extends UnOp
 
   /**
     * Exception with a message and (optionally) a source code position.

@@ -8,7 +8,8 @@ import miniscala.Ast._
 object Interpreter {
 
   def eval(e: Exp): Int = e match {
-    case IntLit(c) => c
+    case IntLit(c) => trace("Finds IntLit " + c)
+      c
     case BinOpExp(leftexp, op, rightexp) =>
       val leftval = eval(leftexp)
       val rightval = eval(rightexp)
@@ -33,7 +34,8 @@ object Interpreter {
     case UnOpExp(op, exp) =>
       val expval = eval(exp)
       op match {
-        case NegUnOp() => -expval
+        case NegUnOp() => trace("Finds negative " + expval)
+          -expval
       }
   }
 

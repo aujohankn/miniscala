@@ -4,10 +4,13 @@
       <w>expval</w>
       <w>leftexp</w>
       <w>leftval</w>
+      <w>lexp</w>
+      <w>rexp</w>
       <w>rightexp</w>
       <w>rightval</w>
       <w>unparse</w>
       <w>unparser</w>
+      <w>yset</w>
     </words>
   </dictionary>
 </component>

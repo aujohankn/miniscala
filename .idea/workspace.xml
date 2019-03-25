@@ -1,42 +1,134 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3ec4a0ed-4c58-4799-97a6-a1d0e01d5d6e" name="Default Changelist" comment="">
+    <list default="true" id="3ec4a0ed-4c58-4799-97a6-a1d0e01d5d6e" name="Default Changelist" comment="v1, functional">
+      <change afterPath="$PROJECT_DIR$/examples/week8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/miniscala/Vars.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/miniscala/nSet.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/johan.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/johan.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/examples/test1" beforeDir="false" afterPath="$PROJECT_DIR$/examples/test1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/miniscala project/miniscala/Ast$.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/miniscala project/miniscala/Ast$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/miniscala project/miniscala/Ast$BinOp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/miniscala project/miniscala/Ast$BinOp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/miniscala project/miniscala/Ast$BinOpExp$.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/miniscala project/miniscala/Ast$BinOpExp$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/miniscala project/miniscala/Ast$BinOpExp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/miniscala project/miniscala/Ast$BinOpExp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/miniscala project/miniscala/Ast$DivBinOp$.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/miniscala project/miniscala/Ast$DivBinOp$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/miniscala project/miniscala/Ast$DivBinOp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/miniscala project/miniscala/Ast$DivBinOp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/miniscala project/miniscala/Ast$Exp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/miniscala project/miniscala/Ast$Exp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/miniscala project/miniscala/Ast$IntLit$.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/miniscala project/miniscala/Ast$IntLit$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/miniscala project/miniscala/Ast$IntLit.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/miniscala project/miniscala/Ast$IntLit.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/miniscala project/miniscala/Ast$MaxBinOp$.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/miniscala project/miniscala/Ast$MaxBinOp$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/miniscala project/miniscala/Ast$MaxBinOp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/miniscala project/miniscala/Ast$MaxBinOp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/miniscala project/miniscala/Ast$MiniScalaError$.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/miniscala project/miniscala/Ast$MiniScalaError$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/miniscala project/miniscala/Ast$MiniScalaError.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/miniscala project/miniscala/Ast$MiniScalaError.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/miniscala project/miniscala/Ast$MinusBinOp$.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/miniscala project/miniscala/Ast$MinusBinOp$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/miniscala project/miniscala/Ast$MinusBinOp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/miniscala project/miniscala/Ast$MinusBinOp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/miniscala project/miniscala/Ast$ModuloBinOp$.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/miniscala project/miniscala/Ast$ModuloBinOp$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/miniscala project/miniscala/Ast$ModuloBinOp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/miniscala project/miniscala/Ast$ModuloBinOp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/miniscala project/miniscala/Ast$MultBinOp$.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/miniscala project/miniscala/Ast$MultBinOp$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/miniscala project/miniscala/Ast$MultBinOp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/miniscala project/miniscala/Ast$MultBinOp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/miniscala project/miniscala/Ast$NegUnOp$.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/miniscala project/miniscala/Ast$NegUnOp$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/miniscala project/miniscala/Ast$NegUnOp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/miniscala project/miniscala/Ast$NegUnOp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/miniscala project/miniscala/Ast$PlusBinOp$.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/miniscala project/miniscala/Ast$PlusBinOp$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/miniscala project/miniscala/Ast$PlusBinOp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/miniscala project/miniscala/Ast$PlusBinOp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/miniscala project/miniscala/Ast$UnOp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/miniscala project/miniscala/Ast$UnOp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/miniscala project/miniscala/Ast$UnOpExp$.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/miniscala project/miniscala/Ast$UnOpExp$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/miniscala project/miniscala/Ast$UnOpExp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/miniscala project/miniscala/Ast$UnOpExp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/miniscala project/miniscala/Ast.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/miniscala project/miniscala/Ast.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/miniscala project/miniscala/Interpreter$.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/miniscala project/miniscala/Interpreter$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/miniscala project/miniscala/Interpreter$InterpreterError.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/miniscala project/miniscala/Interpreter$InterpreterError.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/miniscala project/miniscala/Unparser$.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/miniscala project/miniscala/Unparser$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/miniscala project/miniscala/Ast$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/miniscala project/miniscala/Ast$AstNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/miniscala project/miniscala/Ast$BinOp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/miniscala project/miniscala/Ast$BinOpExp$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/miniscala project/miniscala/Ast$BinOpExp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/miniscala project/miniscala/Ast$DivBinOp$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/miniscala project/miniscala/Ast$DivBinOp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/miniscala project/miniscala/Ast$Exp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/miniscala project/miniscala/Ast$IntLit$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/miniscala project/miniscala/Ast$IntLit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/miniscala project/miniscala/Ast$MaxBinOp$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/miniscala project/miniscala/Ast$MaxBinOp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/miniscala project/miniscala/Ast$MiniScalaError$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/miniscala project/miniscala/Ast$MiniScalaError.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/miniscala project/miniscala/Ast$MinusBinOp$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/miniscala project/miniscala/Ast$MinusBinOp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/miniscala project/miniscala/Ast$ModuloBinOp$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/miniscala project/miniscala/Ast$ModuloBinOp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/miniscala project/miniscala/Ast$MultBinOp$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/miniscala project/miniscala/Ast$MultBinOp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/miniscala project/miniscala/Ast$NegUnOp$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/miniscala project/miniscala/Ast$NegUnOp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/miniscala project/miniscala/Ast$PlusBinOp$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/miniscala project/miniscala/Ast$PlusBinOp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/miniscala project/miniscala/Ast$UnOp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/miniscala project/miniscala/Ast$UnOpExp$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/miniscala project/miniscala/Ast$UnOpExp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/miniscala project/miniscala/Ast.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/miniscala project/miniscala/Interpreter$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/miniscala project/miniscala/Interpreter$InterpreterError.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/miniscala project/miniscala/Interpreter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/miniscala project/miniscala/Main$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/miniscala project/miniscala/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/miniscala project/miniscala/Options$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/miniscala project/miniscala/Options$OptionsError.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/miniscala project/miniscala/Options.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/miniscala project/miniscala/Test$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/miniscala project/miniscala/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/miniscala project/miniscala/Unparser$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/miniscala project/miniscala/Unparser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/miniscala project/miniscala/Week1$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/miniscala project/miniscala/Week1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/miniscala project/miniscala/parser/Lexer$$anonfun$$nestedInanonfun$identifier$1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/miniscala project/miniscala/parser/Lexer$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/miniscala project/miniscala/parser/Lexer$SyntheticPosition$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/miniscala project/miniscala/parser/Lexer$SyntheticPosition.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/miniscala project/miniscala/parser/Lexer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/miniscala project/miniscala/parser/Parser$$anonfun$$nestedInanonfun$intliteral$1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/miniscala project/miniscala/parser/Parser$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/miniscala project/miniscala/parser/Parser$MiniScalaTokenReader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/miniscala project/miniscala/parser/Parser$SyntaxError.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/miniscala project/miniscala/parser/Parser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/miniscala project/miniscala/parser/Tokens$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/miniscala project/miniscala/parser/Tokens$ARROW$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/miniscala project/miniscala/parser/Tokens$ARROW.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/miniscala project/miniscala/parser/Tokens$BOOL$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/miniscala project/miniscala/parser/Tokens$BOOL.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/miniscala project/miniscala/parser/Tokens$CASE$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/miniscala project/miniscala/parser/Tokens$CASE.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/miniscala project/miniscala/parser/Tokens$CLASS$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/miniscala project/miniscala/parser/Tokens$CLASS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/miniscala project/miniscala/parser/Tokens$COLON$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/miniscala project/miniscala/parser/Tokens$COLON.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/miniscala project/miniscala/parser/Tokens$COMMA$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/miniscala project/miniscala/parser/Tokens$COMMA.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/miniscala project/miniscala/parser/Tokens$DDEF$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/miniscala project/miniscala/parser/Tokens$DDEF.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/miniscala project/miniscala/parser/Tokens$DO$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/miniscala project/miniscala/parser/Tokens$DO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/miniscala project/miniscala/parser/Tokens$DOT$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/miniscala project/miniscala/parser/Tokens$DOT.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/miniscala project/miniscala/parser/Tokens$EELSE$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/miniscala project/miniscala/parser/Tokens$EELSE.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/miniscala project/miniscala/parser/Tokens$EQ$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/miniscala project/miniscala/parser/Tokens$EQ.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/miniscala project/miniscala/parser/Tokens$FLOAT$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/miniscala project/miniscala/parser/Tokens$FLOAT.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/miniscala project/miniscala/parser/Tokens$IDENTIFIER$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/miniscala project/miniscala/parser/Tokens$IDENTIFIER.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/miniscala project/miniscala/parser/Tokens$IFF$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/miniscala project/miniscala/parser/Tokens$IFF.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/miniscala project/miniscala/parser/Tokens$INT$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/miniscala project/miniscala/parser/Tokens$INT.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/miniscala project/miniscala/parser/Tokens$LEFT_BRACE$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/miniscala project/miniscala/parser/Tokens$LEFT_BRACE.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/miniscala project/miniscala/parser/Tokens$LEFT_PAREN$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/miniscala project/miniscala/parser/Tokens$LEFT_PAREN.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/miniscala project/miniscala/parser/Tokens$MATCH$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/miniscala project/miniscala/parser/Tokens$MATCH.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/miniscala project/miniscala/parser/Tokens$MiniScalaToken.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/miniscala project/miniscala/parser/Tokens$NEW$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/miniscala project/miniscala/parser/Tokens$NEW.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/miniscala project/miniscala/parser/Tokens$NULL$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/miniscala project/miniscala/parser/Tokens$NULL.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/miniscala project/miniscala/parser/Tokens$OP$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/miniscala project/miniscala/parser/Tokens$OP.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/miniscala project/miniscala/parser/Tokens$RIGHT_BRACE$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/miniscala project/miniscala/parser/Tokens$RIGHT_BRACE.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/miniscala project/miniscala/parser/Tokens$RIGHT_PAREN$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/miniscala project/miniscala/parser/Tokens$RIGHT_PAREN.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/miniscala project/miniscala/parser/Tokens$SEMICOLON$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/miniscala project/miniscala/parser/Tokens$SEMICOLON.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/miniscala project/miniscala/parser/Tokens$SIMPLE_TYPE$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/miniscala project/miniscala/parser/Tokens$SIMPLE_TYPE.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/miniscala project/miniscala/parser/Tokens$STRING$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/miniscala project/miniscala/parser/Tokens$STRING.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/miniscala project/miniscala/parser/Tokens$VVAL$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/miniscala project/miniscala/parser/Tokens$VVAL.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/miniscala project/miniscala/parser/Tokens$VVAR$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/miniscala project/miniscala/parser/Tokens$VVAR.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/miniscala project/miniscala/parser/Tokens$WWHILE$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/miniscala project/miniscala/parser/Tokens$WWHILE.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/miniscala project/miniscala/parser/Tokens.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/miniscala/Ast.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/miniscala/Ast.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/miniscala/AstOriginal.scala" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/miniscala/Interpreter.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/miniscala/Interpreter.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/miniscala/Main.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/miniscala/Main.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/miniscala/Options.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/miniscala/Options.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/miniscala/Test.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/miniscala/Test.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/miniscala/Unparser.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/miniscala/Unparser.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/miniscala/parser/Parser.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/miniscala/parser/Parser.scala" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,13 +137,16 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="miniscala project v4" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/miniscala/Unparser.scala">
+        <entry file="file://$PROJECT_DIR$/src/miniscala/Vars.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+            <state relative-caret-position="155">
+              <caret line="33" column="53" selection-start-line="33" selection-start-column="53" selection-end-line="33" selection-end-column="53" />
               <folding>
                 <element signature="e#19#41#0" expanded="true" />
               </folding>
@@ -59,20 +154,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/examples/test1">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="16" selection-start-column="16" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/miniscala/Main.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            <state relative-caret-position="328">
+              <caret line="26" column="7" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
               <folding>
                 <element signature="e#19#54#0" expanded="true" />
               </folding>
@@ -81,33 +167,93 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/miniscala/Interpreter.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/miniscala/Ast.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="50" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
+            <state relative-caret-position="187">
+              <caret line="107" column="6" selection-start-line="107" selection-start-column="6" selection-end-line="107" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/miniscala/Interpreter.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="257" column="6" lean-forward="true" selection-start-line="257" selection-start-column="6" selection-end-line="257" selection-end-column="6" />
+              <folding>
+                <element signature="e#19#41#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/miniscala/AstOriginal.scala">
+        <entry file="file://$PROJECT_DIR$/src/miniscala/TypeChecker.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="328">
+              <caret line="103" column="48" selection-start-line="103" selection-start-column="48" selection-end-line="103" selection-end-column="48" />
+              <folding>
+                <element signature="e#19#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/miniscala/Test.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
+              <folding>
+                <element signature="e#19#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/miniscala/nSet.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="680">
+              <caret line="55" column="7" selection-start-line="55" selection-start-column="7" selection-end-line="55" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/examples/week8">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret selection-end-line="55" />
+              <caret column="55" selection-start-column="55" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/miniscala/parser/Parser.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4624">
+              <caret line="279" selection-start-line="279" selection-end-line="279" />
+              <folding>
+                <element signature="e#26#60#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>unparse</find>
+      <find>mkString</find>
+      <find>defdecs</find>
+      <find>assert</find>
+      <find>getOrElse</find>
+      <find>parse</find>
+      <find>make</find>
+      <find>makeIni</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -119,19 +265,28 @@
         <option value="$PROJECT_DIR$/examples/test1.s" />
         <option value="$PROJECT_DIR$/examples/test2" />
         <option value="$PROJECT_DIR$/src/miniscala/AstOriginal.scala" />
-        <option value="$PROJECT_DIR$/src/miniscala/Test.scala" />
-        <option value="$PROJECT_DIR$/src/miniscala/Ast.scala" />
-        <option value="$PROJECT_DIR$/src/miniscala/Interpreter.scala" />
-        <option value="$PROJECT_DIR$/src/miniscala/Unparser.scala" />
         <option value="$PROJECT_DIR$/examples/test1" />
+        <option value="$PROJECT_DIR$/src/miniscala/Test2.scala" />
+        <option value="$PROJECT_DIR$/src/miniscala/Unparser.scala" />
+        <option value="$PROJECT_DIR$/examples/even.s" />
+        <option value="$PROJECT_DIR$/examples/MergeTest1" />
+        <option value="$PROJECT_DIR$/src/miniscala/Week5.scala" />
+        <option value="$PROJECT_DIR$/src/miniscala/TypeChecker.scala" />
+        <option value="$PROJECT_DIR$/src/miniscala/Test.scala" />
+        <option value="$PROJECT_DIR$/src/miniscala/Interpreter.scala" />
+        <option value="$PROJECT_DIR$/src/miniscala/Set.scala" />
+        <option value="$PROJECT_DIR$/examples/week8" />
+        <option value="$PROJECT_DIR$/src/miniscala/nSet.scala" />
+        <option value="$PROJECT_DIR$/src/miniscala/Vars.scala" />
+        <option value="$PROJECT_DIR$/src/miniscala/Ast.scala" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="1383" />
-    <option name="height" value="783" />
+    <option name="x" value="146" />
+    <option name="y" value="-8" />
+    <option name="width" value="697" />
+    <option name="height" value="735" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -139,48 +294,37 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="miniscala project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="miniscala project" type="462c0819:PsiDirectoryNode" />
+              <item name="miniscala project v6_2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="miniscala project v6_2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="miniscala project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="miniscala project" type="462c0819:PsiDirectoryNode" />
-              <item name="examples" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="miniscala project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="miniscala project" type="462c0819:PsiDirectoryNode" />
+              <item name="miniscala project v6_2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="miniscala project v6_2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="miniscala project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="miniscala project" type="462c0819:PsiDirectoryNode" />
+              <item name="miniscala project v6_2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="miniscala project v6_2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="miniscala" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="miniscala project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="miniscala project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="miniscala" type="462c0819:PsiDirectoryNode" />
-              <item name="parser" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549483024662" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553507300594" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -209,7 +353,7 @@
     <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="miniscala.Main" />
       <module name="miniscala project" />
-      <option name="PROGRAM_PARAMETERS" value="-run -trace -unparse examples/test1" />
+      <option name="PROGRAM_PARAMETERS" value="-unparse examples/week8" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -217,7 +361,13 @@
     <configuration name="Test" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="miniscala.Test" />
       <module name="miniscala project" />
-      <option name="PROGRAM_PARAMETERS" value="-trace" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test2" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="miniscala.Test2" />
+      <module name="miniscala project" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -235,9 +385,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Week5" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="miniscala.Week5" />
+      <module name="miniscala project" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Week5" />
       <item itemvalue="Application.Test" />
+      <item itemvalue="Application.Test2" />
       <item itemvalue="Application.Week1" />
     </list>
     <recent_temporary>
@@ -270,12 +429,59 @@
       <workItem from="1549378775903" duration="4140000" />
       <workItem from="1549467658671" duration="1025000" />
       <workItem from="1549473721402" duration="440000" />
-      <workItem from="1549556006462" duration="312000" />
+      <workItem from="1549556006462" duration="1738000" />
+      <workItem from="1549561310762" duration="917000" />
+      <workItem from="1549964561533" duration="31858000" />
+      <workItem from="1550072936818" duration="607000" />
+      <workItem from="1550223157321" duration="655000" />
+      <workItem from="1550227743747" duration="120000" />
+      <workItem from="1550244141474" duration="965000" />
+      <workItem from="1550245249073" duration="377000" />
+      <workItem from="1550482208547" duration="4043000" />
+      <workItem from="1550496596666" duration="15408000" />
+      <workItem from="1550655267165" duration="10290000" />
+      <workItem from="1550671739993" duration="2697000" />
+      <workItem from="1551183603311" duration="6857000" />
+      <workItem from="1551200665412" duration="20678000" />
+      <workItem from="1551268617648" duration="614000" />
+      <workItem from="1551291588208" duration="439000" />
+      <workItem from="1551785450761" duration="11204000" />
+      <workItem from="1551806465537" duration="2129000" />
+      <workItem from="1551813899572" duration="1983000" />
+      <workItem from="1551863293162" duration="2069000" />
+      <workItem from="1551866846104" duration="2179000" />
+      <workItem from="1551873552126" duration="50000" />
+      <workItem from="1551891240500" duration="686000" />
+      <workItem from="1551894462177" duration="2928000" />
+      <workItem from="1552388930755" duration="2986000" />
+      <workItem from="1552397201805" duration="4698000" />
+      <workItem from="1552469370611" duration="8282000" />
+      <workItem from="1552501688649" duration="4971000" />
+      <workItem from="1553069642458" duration="48000" />
+      <workItem from="1553091560550" duration="3710000" />
+      <workItem from="1553103785580" duration="8274000" />
+      <workItem from="1553501568205" duration="34000" />
+      <workItem from="1553501933715" duration="2906000" />
     </task>
+    <task id="LOCAL-00001" summary="v1, functional">
+      <created>1549556488002</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1549556488002</updated>
+    </task>
+    <task id="LOCAL-00002" summary="v1, functional">
+      <created>1549557118131</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1549557118131</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28705000" />
+    <option name="totallyTimeSpent" value="185793000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -287,31 +493,31 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.33055976" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49754903" visible="true" weight="0.20953101" />
+      <window_info id="Structure" order="1" sideWeight="0.502451" side_tool="true" weight="0.22617246" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Favorites" order="6" sideWeight="0.5013624" side_tool="true" weight="0.22617246" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.33224222" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3420622" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3289689" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3289689" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.3289689" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.3289689" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50075644" side_tool="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49924356" visible="true" weight="0.3289689" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Database" order="4" />
@@ -321,28 +527,28 @@
       <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28366113" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49754903" visible="true" weight="0.23298033" />
+      <window_info id="Structure" order="1" sideWeight="0.502451" side_tool="true" weight="0.22617246" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Favorites" order="6" sideWeight="0.5013624" side_tool="true" weight="0.22617246" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33224222" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33224222" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3289689" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3289689" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.3289689" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.3289689" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Database" order="4" />
@@ -355,50 +561,25 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="v1, functional" />
+    <option name="LAST_COMMIT_MESSAGE" value="v1, functional" />
+    <option name="PRESELECT_EXISTING_CHANGELIST" value="true" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/examples/twoclasses.s">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/examples/test1.s" />
     <entry file="file://$PROJECT_DIR$/examples/assbitch" />
-    <entry file="file://$PROJECT_DIR$/examples/test2">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="3" lean-forward="true" selection-start-column="3" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/miniscala/parser/Parser.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1663">
-          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding>
-            <element signature="e#26#60#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/miniscala/Week1.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/miniscala/Options.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/miniscala/Test.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="17" selection-start-column="17" selection-end-column="17" />
-          <folding>
-            <element signature="e#18#54#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -425,51 +606,201 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/miniscala/Unparser.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
-          <folding>
-            <element signature="e#19#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/miniscala/Main.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="e#19#54#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/miniscala/Interpreter.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/miniscala/Ast.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="50" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/miniscala/AstOriginal.scala">
+    <entry file="file://$PROJECT_DIR$/src/miniscala/AstOriginal.scala" />
+    <entry file="file://$PROJECT_DIR$/examples/ex21.s">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret selection-end-line="55" />
+          <caret column="9" selection-start-column="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.12.8-sources.jar!/scala/Option.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="362" column="109" lean-forward="true" selection-start-line="362" selection-start-column="109" selection-end-line="362" selection-end-column="109" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/miniscala/Test2.scala" />
+    <entry file="file://$PROJECT_DIR$/src/miniscala/Unparser.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="58" column="48" selection-start-line="58" selection-start-column="48" selection-end-line="58" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/fac.s">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/fib2.s">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/miniscala/parser/Lexer.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="50" column="10" selection-start-line="50" selection-start-column="10" selection-end-line="50" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/miniscala/parser/Tokens.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="47" column="13" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/even.s">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/sqrt4.s">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="22" lean-forward="true" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/pingpong.s">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/miniscala/Week1.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/examples/test1">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="16" selection-start-column="16" selection-end-column="16" />
+          <caret column="13" lean-forward="true" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/test2">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="3" lean-forward="true" selection-start-column="3" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.12.8-sources.jar!/scala/Predef.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="941">
+          <caret line="207" selection-start-line="207" selection-end-line="207" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/miniscala/Week5.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-12">
+          <caret line="83" column="45" lean-forward="true" selection-start-line="83" selection-start-column="45" selection-end-line="83" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/miniscala/parser/Parser.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4624">
+          <caret line="279" selection-start-line="279" selection-end-line="279" />
+          <folding>
+            <element signature="e#26#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/MergeTest1">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="107" selection-start-line="1" selection-start-column="107" selection-end-line="1" selection-end-column="107" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/ack.s">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/week8">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="55" selection-start-column="55" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/miniscala/Test.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
+          <folding>
+            <element signature="e#19#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/miniscala/nSet.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="55" column="7" selection-start-line="55" selection-start-column="7" selection-end-line="55" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/miniscala/TypeChecker.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="103" column="48" selection-start-line="103" selection-start-column="48" selection-end-line="103" selection-end-column="48" />
+          <folding>
+            <element signature="e#19#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/miniscala/Ast.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="107" column="6" selection-start-line="107" selection-start-column="6" selection-end-line="107" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/miniscala/Main.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="26" column="7" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
+          <folding>
+            <element signature="e#19#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/miniscala/Vars.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="33" column="53" selection-start-line="33" selection-start-column="53" selection-end-line="33" selection-end-column="53" />
+          <folding>
+            <element signature="e#19#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/miniscala/Interpreter.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="257" column="6" lean-forward="true" selection-start-line="257" selection-start-column="6" selection-end-line="257" selection-end-column="6" />
+          <folding>
+            <element signature="e#19#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
